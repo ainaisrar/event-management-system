@@ -21,7 +21,7 @@ export default function Login() {
 
   // Once logged in, go to the home page
   useEffect(() => {
-    if (user) navigate("/events");
+    if (user) navigate("/");
   }, [user, navigate]);
 
   const handleChange = (e) => {
